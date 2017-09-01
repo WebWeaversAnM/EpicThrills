@@ -1,6 +1,13 @@
-h{
-	background: red;
+h1{
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	text-align: center;
 }
 body{
 	background-color: #a3d1b4;
+}
+img{
+	margin-left: auto;
+	margin-right: auto;
 }
