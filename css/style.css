@@ -18,7 +18,17 @@ img{
 }
 #myNavbar{
 	float: right;
+	color: white;
 }
 .navbar-brand{
 	font-family: 'Pacifico', cursive;
+}
+.navbar-inverse{
+    background-color: transparent;
+    height: 70px;
+    padding: 10px;
+    border-color: transparent;
+}
+.start{
+	margin-top: 70px;
 }
