@@ -228,13 +228,13 @@ body {
       height: auto;
   }
  
-  
   .qoute{
-      color: white;
-      font-size: 1000%;
-      
-      
-  }
+    color: white;
+    font-size: 1000%;
+    
+    
+}
+
 
 
 /*-------------------------------*/
@@ -288,6 +288,7 @@ body {
   .customer-quote{
       padding-top: 0px;
   }
+  
 
   @media (max-width: 768px) { 
     .qoute{
