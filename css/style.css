@@ -5,9 +5,20 @@ h1{
 	text-align: center;
 }
 body{
-	background-color: #a3d1b4;
+	background-image: url("../img/back.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
 }
 img{
 	margin-left: auto;
 	margin-right: auto;
+}
+#myNavbar{
+	float: right;
+}
+.navbar-brand{
+	font-family: 'Pacifico', cursive;
 }
