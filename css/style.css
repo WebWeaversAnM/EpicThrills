@@ -25,6 +25,21 @@ img{
 .start{
 	margin-top: 70px;
 }
+.navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+}
 .navbar-header a{
 	font-family: 'Pacifico', cursive;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+	margin-top: 3px;
+	font-weight: bold;
+}
+#main-head{
+	color: white;
+	font-size: 28px;
+	margin-top: 3px;
+	font-weight: bold;
 }
