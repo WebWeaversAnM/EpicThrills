@@ -64,6 +64,31 @@
   //     tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
    // }
   // });
-   
-  
+  $(document).ready(function(){
+    // Activate Carousel
+    $("#my-car").carousel();
+    
+    // Enable Carousel Indicators
+    $(".item1").click(function(){
+        $("#my-car").carousel(0);
+    });
+    $(".item2").click(function(){
+        $("#my-car").carousel(1);
+    });
+    $(".item3").click(function(){
+        $("#my-car").carousel(2);
+    });
+    $(".item4").click(function(){
+        $("#my-car").carousel(3);
+    });
+    
+    // Enable Carousel Controls
+    $(".left").click(function(){
+        $("#my-car").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#my-car").carousel("next");
+    });
+});
+
   })(jQuery); // End of use strict
