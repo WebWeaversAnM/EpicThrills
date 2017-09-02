@@ -130,7 +130,7 @@ body {
     #mainNav {
               border-color:transparent;
               background-color:transparent;
-              box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+              /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);  */
              }
               
     #mainNav .navbar-brand {
@@ -180,7 +180,7 @@ body {
         background-color:	white;
         color: #ffffff;
         height: 100vh;
-        background-image: url("images/header.jpg");
+        background-image: url("../images/header.jpg");
         
         
     }
@@ -214,17 +214,7 @@ body {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
   
-  .card-block {
-      font-size: 1em;
-      position: relative;
-      margin: 0;
-      padding: 1em;
-      border: none;
-      border-top: 1px solid rgba(34, 36, 38, .1);
-      box-shadow: none;
-      
   
-  }
   
   .card-img-top {
       display: block;
@@ -232,8 +222,7 @@ body {
       height: auto;
   }
  
-
-
+  
 
 
 
