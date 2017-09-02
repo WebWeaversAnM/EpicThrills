@@ -34,6 +34,7 @@ img{
 }
 .navbar-default .navbar-nav > li > a {
     color: white;
+    font-size: 14px;
 	margin-top: 3px;
 	font-weight: bold;
 }
@@ -41,5 +42,5 @@ img{
 	color: white;
 	font-size: 28px;
 	margin-top: 3px;
-	font-weight: bold;
+	font-weight: bolder;
 }
