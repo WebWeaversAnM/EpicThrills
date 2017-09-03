@@ -8,7 +8,6 @@ $(document).scroll(function(){
   else{
     $('.navbar-default').css({"background-color":"transparent","border-color":"transparent"});
     $('#main-head').css({"color":"white"});
-
     $('.navbar-default .navbar-nav > li > a').css({"color":"white"});
   }
 });
