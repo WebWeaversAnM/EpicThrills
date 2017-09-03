@@ -58,3 +58,6 @@ img{
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 	border-radius: 4px;
 }
+#place1,#place2{
+	opacity: 0.5;
+}
