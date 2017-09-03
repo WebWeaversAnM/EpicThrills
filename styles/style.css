@@ -197,11 +197,7 @@ body {
         background-size: cover;
     }
 
-    .bg-3 {
-        background-color:	white;
-        color: #ffffff;
-        height: 100vh;
-    }
+    
 
 
 .card {
@@ -298,4 +294,12 @@ body {
         
     }
 
+}
+
+
+
+.bg-3 {
+    background-color:	aqua;
+    color: #ffffff;
+    height: 50vh;
 }
