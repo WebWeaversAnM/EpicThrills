@@ -31,10 +31,11 @@ img{
 }
 .navbar-header a{
 	font-family: 'Pacifico', cursive;
+	padding: 35px 40px; 
 }
 .navbar-default .navbar-nav > li > a {
     color: white;
-    font-size: 13px;
+    font-size: 12px;
 	margin-top: 3px;
 	font-weight: bold;
 	padding: 15px 40px; 
@@ -42,13 +43,17 @@ img{
     margin-right: 10px;
     text-align: center;
 }
+.navbar-default .navbar-nav > li > a:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	color: white;
+	border-radius: 4px;
+}
 #main-head{
 	color: white;
-	font-size: 28px;
-	margin-top: 3px;
+	font-size: 35px;
 	font-weight: bolder;
-	padding: 15px 40px; 
-    margin: 10px auto;
-    margin-right: 10px;
-    text-align: center;
+}
+.navbar-header a:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	border-radius: 4px;
 }
