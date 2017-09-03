@@ -37,10 +37,18 @@ img{
     font-size: 14px;
 	margin-top: 3px;
 	font-weight: bold;
+	padding: 15px 40px; 
+    margin: 10px auto;
+    margin-right: 10px;
+    text-align: center;
 }
 #main-head{
 	color: white;
 	font-size: 28px;
 	margin-top: 3px;
 	font-weight: bolder;
+	padding: 15px 40px; 
+    margin: 10px auto;
+    margin-right: 10px;
+    text-align: center;
 }
