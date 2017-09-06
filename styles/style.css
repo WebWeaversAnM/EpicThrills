@@ -659,8 +659,9 @@ opacity: 0.7;
   }
 
   .new-customer:hover .new-card {
-    opacity: 0.3;
+    /* opacity: 0.3; */
     transform: scale(1.1);
+    -webkit-filter: blur(10px);
     
   }
   
@@ -670,7 +671,7 @@ opacity: 0.7;
 
   .new-quo{
     
-    color: #3378EC;
+    color: white;
     font-size: 30px;
     padding-left: 0px;
     padding-right: 0px;
