@@ -1,60 +1,80 @@
-h1{
-	border-width: 2px;
-	border-color: black;
-	border-style: solid;
-	text-align: center;
+.loader {
+	background-color: #00B675;
+	height: 100vh;
+	width: 100vw;
 }
-body{
-	background-image: url("../img/back.jpg");
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+.loader img {
+	width: 30vw;
+	margin-top: 25vh;
+}
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+}
+
+.bg {
+	background: url('../img/back-1.jpg') no-repeat center center fixed;
+	height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
 	background-size: cover;
-	background-color: #464646;
+    -o-background-size: cover;
 }
-img{
-	margin-left: auto;
-	margin-right: auto;
-}
-.icon-bar{
-	border-color: transparent;
-}
-#myNavbar{
-	float: right;
-}
-.start{
-	margin-top: 70px;
-}
-.navbar-default{
+.navbar-default {
 	background-color: transparent;
 	border-color: transparent;
 }
-.navbar-header a{
+.navbar-brand {
 	font-family: 'Pacifico', cursive;
-	padding: 35px 40px; 
+	font-size: 1.875em;
+	margin: 0.3125em auto;
 }
-.navbar-default .navbar-nav > li > a {
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 12px;
-	margin-top: 3px;
-	font-weight: 600;
-	padding: 15px 40px; 
-    margin: 10px auto;
-    margin-right: 10px;
-    text-align: center;
-}
-.navbar-default .navbar-nav > li > a:hover{
-	color: #777;
-}
-#main-head{
+#page-head {
 	color: white;
-	font-size: 35px;
+}
+#page-head:hover {
 	font-weight: bolder;
+	-webkit-transition-duration: 10ms; /* Safari */
+    transition-duration: 10ms;
 }
-#main-head:hover{
-	color: #777;
+.nav.navbar-nav li a {
+	color: white;
+   	font-family: 'Lato', sans-serif;
+	font-size: 1.0625em;
+	margin: 0.3125em auto;
+ }
+ .nav.navbar-nav li a:hover{
+ 	font-weight: bold;
+ 	transition-duration: 10ms;
+ }
+.nav.navbar-nav :hover {
+	color: #001439;
+ 	background-color: white;
+ 	-webkit-transition-duration: 1s; /* Safari */
+    transition-duration: 1s;
 }
-#place1,#place2{
-	opacity: 0.5;
+.white-text {
+	color: white;
+}
+.head-br{
+	max-width: 4.375em;
+	border-width: 0.3125em;
 }
