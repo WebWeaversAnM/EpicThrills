@@ -6,6 +6,9 @@ $(document).ready(function(){
 if(wi<640){
     document.getElementById('cust-11').style.display='none';
 }
+if(wi>640){
+    document.getElementById('cust-22').style.display='none';
+}
 });
 
 
