@@ -41,6 +41,7 @@
 .navbar-default {
 	background-color: transparent;
 	border-color: transparent;
+	box-shadow: none;
 }
 .navbar-brand {
 	font-family: 'Pacifico', cursive;
@@ -77,4 +78,20 @@
 .head-br{
 	max-width: 4.375em;
 	border-width: 0.3125em;
+}
+.box-sh {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.box-sh-high {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn-primary:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	-webkit-transition-duration: 1s; /* Safari */
+    transition-duration: 1s;
+}
+.card-img-top:hover {
+	opacity: .7;
+	-webkit-transition-duration: 1s; /* Safari */
+    transition-duration: 1s;
 }
