@@ -15,7 +15,7 @@ function menuToggler(x) {
    
         if(ab==1){
             if($("#mainNav").offset().top < 50){
-           $('.navbar-default').css({"background-color":"white"});
+           $('.navbar-default').css({"background-color":"white","transition-duration":"0.4s"});
            $('#mainNav').css({"color":"black"});
            $('.navbar-default .navbar-brand').css({"color":"#3378EC","font-size":"25px"});
            $("#mainNav").addClass("navbar-shrink");
@@ -38,7 +38,7 @@ function menuToggler(x) {
         else{
             if ($("#mainNav").offset().top < 50)
             {
-            $('.navbar-default').css({"background-color":"transparent","border-color":"transparent"});
+            $('.navbar-default').css({"background-color":"transparent","border-color":"transparent","transition-duration":"0.4s"});
            $('#mainNav').css({"color":"white"});
            $('.navbar-default .navbar-brand').css({"color":"white","font-size":"25px"});
            $('.navbar-default .navbar-nav > li > a').css({"color":"white"});
