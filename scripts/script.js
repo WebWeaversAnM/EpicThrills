@@ -1,5 +1,9 @@
 var myVar;
 var ab=1;
+var wi = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+
+
+
 
 function myFunction() {
     myVar = setTimeout(showPage, 3000);
@@ -153,6 +157,8 @@ $(window).scroll(function() {
       }  // End if
     });
   });
+
+  
 
 
 
