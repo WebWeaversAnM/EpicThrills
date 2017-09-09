@@ -74,13 +74,13 @@ body {
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s;
-    box-shadow: transparent;
+    
     
     
 }
 
 #mainNav.navbar-shrink {
-    border-color: rgba(34, 34, 34, 0.05);
+    /*border-color: rgba(34, 34, 34, 0.05);*/
     background-color: white; 
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
@@ -687,7 +687,7 @@ opacity: 0.7;
 }
 
 .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-6px, 3px) ;
+    -webkit-transform: rotate(-45deg) translate(-4px, 3px) ;
     transform: rotate(-45deg) translate(-4px, 3px) ;
 }
 
