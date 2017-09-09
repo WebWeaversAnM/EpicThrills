@@ -2,7 +2,11 @@ var myVar;
 var ab=1;
 var wi = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
-
+$(document).ready(function(){
+if(wi<640){
+    document.getElementById('cust-11').style.display='none';
+}
+});
 
 
 function myFunction() {
