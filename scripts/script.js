@@ -12,15 +12,7 @@ function showPage() {
 
 function menuToggler(x) {
     x.classList.toggle("change");
-
-
-
-
-
-
-
-
-        
+   
         if(ab==1){
             if($("#mainNav").offset().top < 50){
            $('.navbar-default').css({"background-color":"white"});
@@ -34,6 +26,9 @@ function menuToggler(x) {
             $(this).css("color", "black");
             
         });
+        $('.bar1').css({"background-color":"black"});
+        $('.bar2').css({"background-color":"black"});
+        $('.bar3').css({"background-color":"black"});
         ab=0;
             }
             else{
@@ -54,6 +49,9 @@ function menuToggler(x) {
             }, function(){
             $(this).css("color", "white");
         });
+        $('.bar1').css({"background-color":"white"});
+        $('.bar2').css({"background-color":"white"});
+        $('.bar3').css({"background-color":"white"});
         ab=1;
             }
             else{
@@ -104,6 +102,9 @@ $(window).scroll(function() {
             $(this).css("color", "#001439");
             
         });
+        $('.bar1').css({"background-color":"black"});
+        $('.bar2').css({"background-color":"black"});
+        $('.bar3').css({"background-color":"black"});
     } else {
         if(ab!=0){
            $('.navbar-default').css({"background-color":"transparent","border-color":"transparent"});
@@ -117,6 +118,9 @@ $(window).scroll(function() {
             }, function(){
             $(this).css("color", "white");
         });
+        $('.bar1').css({"background-color":"white"});
+        $('.bar2').css({"background-color":"white"});
+        $('.bar3').css({"background-color":"white"});
         }
     }
 

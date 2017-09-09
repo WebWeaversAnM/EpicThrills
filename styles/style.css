@@ -91,7 +91,7 @@ body {
         text-transform: uppercase;
         color:white;
         
-        font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+        
        }
 
 #mainNav .navbar-toggle {
@@ -681,7 +681,7 @@ opacity: 0.7;
 .bar1, .bar2, .bar3 {
     width: 20px;
     height: 3px;
-    background-color: #333;
+    background-color: white;
     margin: 3px 0;
     transition: 0.4s;
 }
