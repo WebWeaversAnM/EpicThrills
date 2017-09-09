@@ -9,6 +9,10 @@ function showPage() {
   document.getElementById("page-top").style.display = "block";
 }
 
+function menuToggler(x) {
+    x.classList.toggle("change");
+}
+
 
 $(document).ready(function(){
     // Activate Carousel
@@ -51,7 +55,7 @@ $(window).scroll(function() {
     } else {
            $('.navbar-default').css({"background-color":"transparent","border-color":"transparent"});
            $('#mainNav').css({"color":"white"});
-           $('.navbar-default .navbar-brand').css({"color":"white","font-size":"18px"});
+           $('.navbar-default .navbar-brand').css({"color":"white","font-size":"25px"});
            $('.navbar-default .navbar-nav > li > a').css({"color":"white"});
            $("#mainNav").removeClass("navbar-shrink");
            $('.nav.navbar-nav li a').css({"color":"white"});
