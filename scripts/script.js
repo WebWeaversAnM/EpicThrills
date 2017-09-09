@@ -41,14 +41,25 @@ $(window).scroll(function() {
            $('#mainNav').css({"color":"#524758"});
            $('.navbar-default .navbar-brand').css({"color":"#3378EC","font-size":"20px"});
            $("#mainNav").addClass("navbar-shrink");
-           $('.navbar-default .navbar-nav > li > a').css({"color":"black"});
-           $('.navbar-default .navbar-nav > li > a:hover').css({"color":"white"});
+           $('.nav.navbar-nav li a').css({"color":"#001439"});
+           $('.nav.navbar-nav li a').hover(function(){
+            $(this).css("color", "#001439");
+            }, function(){
+            $(this).css("color", "#001439");
+            
+        });
     } else {
            $('.navbar-default').css({"background-color":"transparent","border-color":"transparent"});
            $('#mainNav').css({"color":"white"});
            $('.navbar-default .navbar-brand').css({"color":"white","font-size":"18px"});
            $('.navbar-default .navbar-nav > li > a').css({"color":"white"});
            $("#mainNav").removeClass("navbar-shrink");
+           $('.nav.navbar-nav li a').css({"color":"white"});
+           $('.nav.navbar-nav li a').hover(function(){
+            $(this).css("color", "white");
+            }, function(){
+            $(this).css("color", "white");
+        });
     }
   });
 

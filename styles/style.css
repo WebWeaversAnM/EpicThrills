@@ -6,12 +6,8 @@ html {
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
 
-.btn.btn-circle { 
-    border-radius: 50px; 
-    border-color:transparent;
+
     
-    
-}
 .button1{
     border-radius: 50px; 
     border-color:transparent;
@@ -37,9 +33,7 @@ body {
     text-decoration: none;
     color: white;
 }
-.btn.btn-outline {
-    background-color: transparent;
-    }
+
 
 .navbar-brand {
      position: relative; 
@@ -58,15 +52,19 @@ body {
     text-align: center;
     transition-duration: 0.4s;
     color: white;
+    font-size: 15px;
+    
      
   }
 
 .navbar-nav.navbar-right .btn:hover{
-    background-color:#3378EC;
+    background-color:transparent;
     color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+    /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
     
 }
+
 #mainNav {
     
     border-color: transparent;
@@ -261,7 +259,7 @@ body {
     font-weight: 300;
     margin-bottom: 50px;
     /* color: rgba(255, 255, 255, 0.7); */
-    margin-left: 50px;
+    margin-left: 100px;
     margin-right: 100px;
     padding-left: 50px;
     padding-right: 50px;
