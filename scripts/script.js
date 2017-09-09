@@ -25,7 +25,7 @@ function menuToggler(x) {
             if($("#mainNav").offset().top < 50){
            $('.navbar-default').css({"background-color":"white"});
            $('#mainNav').css({"color":"black"});
-           $('.navbar-default .navbar-brand').css({"color":"#3378EC","font-size":"20px"});
+           $('.navbar-default .navbar-brand').css({"color":"#3378EC","font-size":"25px"});
            $("#mainNav").addClass("navbar-shrink");
            $('.nav.navbar-nav li a').css({"color":"black"});
            $('.nav.navbar-nav li a').hover(function(){
@@ -95,7 +95,7 @@ $(window).scroll(function() {
     if ($("#mainNav").offset().top > 50) {
            $('.navbar-default').css({"background-color":"white","transition-duration":"0.2s"});
            $('#mainNav').css({"color":"#524758"});
-           $('.navbar-default .navbar-brand').css({"color":"#3378EC","font-size":"20px"});
+           $('.navbar-default .navbar-brand').css({"color":"#3378EC","font-size":"25px"});
            $("#mainNav").addClass("navbar-shrink");
            $('.nav.navbar-nav li a').css({"color":"#001439"});
            $('.nav.navbar-nav li a').hover(function(){
