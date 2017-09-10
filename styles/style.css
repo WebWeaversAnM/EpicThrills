@@ -352,14 +352,7 @@ hr {
     padding-top: 30px;
     padding-bottom: 70px;
     padding-right: 30px;
-    
-    
-    
-
 }
-
-
-
 #my-car.carousel .carousel-inner .second{
     background-image: url("../images/customer/2-2.jpg");
     background-size: cover;
@@ -378,8 +371,11 @@ hr {
     padding-bottom: 70px;
     padding-right: 30px;
 }
-
-  #my-car.carousel .carousel-inner .item {
+#my-car.carousel .carousel-indicators {
+    bottom: 10px;
+  }
+ 
+  /* #my-car.carousel .carousel-inner .item {
     opacity: 0;
     -webkit-transition-property: opacity;
         -ms-transition-property: opacity;
@@ -391,9 +387,7 @@ hr {
         -ms-transition-property: opacity;
             transition-property: opacity;
   }
-  #my-car.carousel .carousel-indicators {
-    bottom: 10px;
-  }
+  
   #my-car.carousel .carousel-indicators > li {
     background-color: white;
     border: none;
@@ -407,17 +401,17 @@ hr {
     text-shadow: none;
     margin-top: 30px;
   }
-  /* Previous button  */
+  
   #my-car.carousel-control.left 
   {
     left: -12px;
     
   }
-  /* Next button  */
+
   #my-car.carousel-control.right 
   {
     right: -12px !important;
-  }
+  } */
 
   .customer-quote{
       padding-top: 0px;

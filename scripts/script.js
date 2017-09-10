@@ -84,53 +84,25 @@ function menuToggler(x) {
         }
     
 }
-
-
-$(document).ready(function(){
-    // Activate Carousel
-    $("#my-car").carousel();
+$(document).ready(function() {  
     
-    // Enable Carousel Indicators
-    $(".item1").click(function(){
-        $("#my-car").carousel(0);
-    });
-    $(".item2").click(function(){
-        $("#my-car").carousel(1);
-    });
-    $(".item3").click(function(){
-        $("#my-car").carousel(2);
-    });
-     
-        $("#my-car").swiperight(function() {  
-           $("#my-car").carousel('prev');  
-         });  
-        $("#my-car").swipeleft(function() {  
-           $("#my-car").carousel('next');  
-        });  
-     
-    //swipe
-    // $("#my-car").swipe({
-        
-    //       swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
-        
-    //         if (direction == 'left') $(this).carousel('prev');
-    //         if (direction == 'right') $(this).carousel('next');
-        
-    //       },
-    //       allowPageScroll:"vertical"
-        
-    // });
+                        //Enable swiping...
+                        $(".carousel-inner").swipe( {
+                            //Generic swipe handler for all directions
+                            swipeLeft:function(event, direction, distance, duration, fingerCount) {
+                                $(this).parent().carousel('prev'); 
+                            },
+                            swipeRight: function() {
+                                $(this).parent().carousel('next'); 
+                            },
+                            //Default is 75px, set to 0 for demo so any distance triggers swipe
+                            threshold:0
+                        });
 
 
 
-    // Enable Carousel Controls
-    $(".left").click(function(){
-        $("#my-car").carousel("prev");
-    });
-    $(".right").click(function(){
-        $("#my-car").carousel("next");
-    });
 });
+
 
 $(window).scroll(function() {
     
