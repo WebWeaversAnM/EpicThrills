@@ -280,16 +280,7 @@ hr {
     border-width: 3px;
     border-color: white; }
 
-    .bg-2 {
-        background-color:white;
-        color: #ffffff;
-        height: auto;
-        width: 100%;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
+
 
     
 
@@ -326,6 +317,17 @@ hr {
     
 }
 
+.bg-2 {
+    background-color:white;
+    color: #ffffff;
+    height: auto;
+    
+    padding-left: 0px;
+    padding-right: 0px;
+    
+    
+
+}
 
 
 /*-------------------------------*/
@@ -336,27 +338,45 @@ hr {
     padding-bottom: 0px;
     padding-left: 0px;
     padding-right: 0px;
+    padding-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    height: 50%;
+    
   }
 #my-car.carousel .carousel-inner .first{
-    background-image: url("../images/customer/1.jpg");
+    background-image: url("../images/customer/1-1.jpg");
     background-size: cover;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 30px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-right: 30px;
+    
+    
+    
+
 }
+
+
+
 #my-car.carousel .carousel-inner .second{
-    background-image: url("../images/customer/2.jpg");
+    background-image: url("../images/customer/2-2.jpg");
     background-size: cover;
-    background: rgba(0, 0, 0, 0.8);
-    width: 100%;
-    height: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 30px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-right: 30px;
 }
 #my-car.carousel .carousel-inner .third{
-    background-image: url("../images/customer/3.jpg");
+    background-image: url("../images/customer/3-3.jpg");
     background-size: cover;
+    padding-left: 30px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-right: 30px;
 }
 
   #my-car.carousel .carousel-inner .item {
@@ -431,6 +451,7 @@ hr {
    .header-main{
        font-size: 25px;
    }
+   
 
 
 }
