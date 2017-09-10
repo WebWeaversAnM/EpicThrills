@@ -3,12 +3,24 @@ var ab=1;
 var wi = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
 $(document).ready(function(){
-if(wi<640){
-    document.getElementById('cust-11').style.display='none';
-}
-if(wi>640){
-    document.getElementById('cust-22').style.display='none';
-}
+    if(wi<640){
+                document.getElementById('cust-11').style.display='none';
+                
+            }
+            if(wi>640){
+                document.getElementById('cust-22').style.display='none';
+                
+            }
+});
+
+$(window).on('resize', function(){
+    var win = $(this); //this = window
+    if (win.height() <= 640) {
+        document.getElementById('cust-11').style.display='none';
+        document.getElementById('cust-22').style.display='block';  }
+    if (win.width() >= 768) {
+        document.getElementById('cust-22').style.display='none'; 
+        document.getElementById('cust-11').style.display='block'; }
 });
 
 
@@ -88,8 +100,29 @@ $(document).ready(function(){
     $(".item3").click(function(){
         $("#my-car").carousel(2);
     });
-   
-    
+     
+        $("#my-car").swiperight(function() {  
+           $("#my-car").carousel('prev');  
+         });  
+        $("#my-car").swipeleft(function() {  
+           $("#my-car").carousel('next');  
+        });  
+     
+    //swipe
+    // $("#my-car").swipe({
+        
+    //       swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+        
+    //         if (direction == 'left') $(this).carousel('prev');
+    //         if (direction == 'right') $(this).carousel('next');
+        
+    //       },
+    //       allowPageScroll:"vertical"
+        
+    // });
+
+
+
     // Enable Carousel Controls
     $(".left").click(function(){
         $("#my-car").carousel("prev");

@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
   <link rel="stylesheet" href="styles/style.css">
-  <script src="scripts/script.js"></script>
+  
   
   <title>Epic Thrills</title>
 </head>
@@ -262,7 +262,7 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
             
-                  <div class="item active first">
+                  <div class="item first">
                     
                     <i class="fa fa-quote-left" style="font-size:600%;color:white"></i>
                     <div style="font-size: 150%;color: white;">This is the best website to find some good adventures nearby!</div>
@@ -271,7 +271,7 @@
                     
                   </div>
             
-                  <div class="item second">
+                  <div class="item active second">
                     <i class="fa fa-quote-left" style="font-size:600%;color:white"></i>
                     <div style="font-size: 150%;color: white;">This is the best website to find some good adventures nearby!</div>
                     <i class="fa fa-quote-right" style="font-size:600%;color:white;float: right;"></i>
@@ -288,16 +288,20 @@
                   
               
                 </div>
+                <!-- carousel-indicators -->
+
+                <!-- <a class="left carousel-control" href="#my-car" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#my-car" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a> -->
             
-                <!-- Left and right controls -->
-                <!-- <a class="left carousel-control" href="#my-car" role="button">
-                    <i class="material-icons">chevron_left</i>
+                
                   
-                </a>
-                <a class="right carousel-control" href="#my-car" role="button">
-                    <i class="material-icons">chevron_right</i> -->
-                  
-                <!-- </a> -->
+                
               <!-- </div>
             </div>-->
           </div>
@@ -388,6 +392,25 @@
 </footer>
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<script src=”scripts/jquery.mobile.custom.min.js”></script> 
+
+<script src="scripts/script.js"></script>
+
+
+<script>
+    $(document).ready(function() {  
+         $("#my-car").swiperight(function() {  
+            $(this).carousel('prev');  
+            });  
+         $("#my-car").swipeleft(function() {  
+            $(this).carousel('next');  
+       });  
+    });  
+  </script>
 </body>
 
 </html>
