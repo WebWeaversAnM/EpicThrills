@@ -1,4 +1,3 @@
-var myVar;
 var ab=1;
 var wi = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
@@ -24,14 +23,7 @@ $(window).on('resize', function(){
 });
 
 
-function myFunction() {
-    myVar = setTimeout(showPage, 3000);
-}
 
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("page-top").style.display = "block";
-}
 
 function menuToggler(x) {
     x.classList.toggle("change");
