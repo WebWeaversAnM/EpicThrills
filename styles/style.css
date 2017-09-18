@@ -88,7 +88,6 @@ body {
 
 #mainNav .navbar-brand {
         font-weight: 700;
-        text-transform: uppercase;
         color:white;
         
         
@@ -278,17 +277,7 @@ body {
     margin-right: 100px;
     background-color: black; */
 }
-.border-ex{
-    
-    border: 5px solid white;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    
-}
+
 
 /* hr {
     max-width: 50px;
